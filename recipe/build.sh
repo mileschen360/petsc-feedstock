@@ -3,7 +3,7 @@
 export PETSC_DIR=$SRC_DIR
 export PETSC_ARCH=arch-conda-c-opt
 
-
+  
 $PYTHON ./configure \
   LDFLAGS="$LDFLAGS" \
   --with-fc=0 \
