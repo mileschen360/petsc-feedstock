@@ -8,6 +8,7 @@ $PYTHON ./configure \
   LDFLAGS="$LDFLAGS" \
   --with-fc=0 \
   --with-debugging=0 \
+  --with-scalar-type=complex \
   --COPTFLAGS=-O3 \
   --CXXOPTFLAGS=-O3 \
   --LIBS=-Wl,-rpath,$PREFIX/lib \

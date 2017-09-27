@@ -55,5 +55,5 @@ install:
 
 script:
   - conda build ./recipe
-
+  - anaconda upload -c t/mc-4de9faf1-52ab-4544-bbb9-62429569e37d/mchen360 /Users/travis/miniconda3/conda-bld/osx-64/petsc-3.7.6-blas_openblas_0.tar.bz2
   - upload_or_check_non_existence ./recipe conda-forge --channel=main
